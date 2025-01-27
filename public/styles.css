@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(117, 5, 5);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.form, #guess, #guessField, #subt {
+    margin: 20px;
+    padding: 10px;
+}
+
+#guessField{
+    font-size: 1.5rem;
+    width: 150px;
+}
+#subt{
+    transform: scale(2);
+    background-color: #BCE4FC;
+    color: black;
+    border: none;
+    font-size: 0.6rem;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#subt:hover{
+    cursor: pointer;
+    transform: scale(1.7);
+    background-color: rgb(207, 237, 255);
+}
+
+#subt:active{
+    transform: scale(1.6);
+    background-color: rgb(255, 255, 255);
+}
